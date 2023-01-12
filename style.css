@@ -1,0 +1,353 @@
+body{
+	font-family:"Poppins", sans-serif;
+	background-color:#efefef;
+	color:#333;
+}
+.nav-wrapper{
+	text-transform: uppercase;
+}
+.brand-logo {
+	font-weight:bold;
+	color:#333333 !important;
+}
+nav{
+	background-color: transparent !important;
+	box-shadow:0px 0px !important;
+	padding-top:26px;
+}
+nav ul a:hover{
+	background-color: rgba(0, 0, 0, 0) !important;
+	opacity:100%;
+}
+nav ul a{
+	padding:0 30px !important;
+	font-size:14px !important;
+	opacity:40%;
+	color:#333333 !important;
+}
+@media only screen and (min-width: 601px){
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
+		height:70px !important;
+		line-height:68px !important;
+	}
+}
+.content{
+	margin-top:58px !important;
+}
+.content .row .col{
+	padding:0px 10px !important;
+}
+.activity{
+	background-color:#B4C2DD;
+	border-radius:12px;
+	padding:8px 20px;
+	border:1px solid #777;
+	color:#333;
+}
+.activity ul{
+	padding-left:20px !important;
+	margin-bottom:8px !important;
+}
+.activity ul li{
+	list-style-type:disc !important;
+}
+.activity .title-content{
+	margin-bottom:0px !important;
+}
+.bus-list{
+	margin-bottom:18px;
+}
+.bus{
+	margin:8px 0px;
+}
+.time-arrive{
+	color:#555;
+	font-size:12px;
+}
+.information{
+	background-color:#F1F0B8;
+	border-radius:12px;
+	padding:8px 20px;
+	border:1px solid #777;
+	color:#333;
+}
+.information ul{
+	padding-left:20px !important;
+	margin-bottom:8px !important;
+}
+.information ul li{
+	list-style-type:disc !important;
+}
+.information .title-content{
+	margin-bottom:0px !important;
+}
+.note-list{
+	margin-bottom:18px;
+}
+.note{
+	margin:8px 0px !important;
+	width:320px;
+}
+.more-note{
+	text-decoration:underline;
+	cursor:pointer;
+	font-weight:bold;
+	margin-top:31px;
+}
+.help{
+	background-color:#ACE6D4;
+	border-radius:12px;
+	padding:8px 20px;
+	border:1px solid #777;
+	color:#333;
+}
+.desc-help{
+	width:340px;
+}
+.more-help{
+	text-decoration:underline;
+	cursor:pointer;
+	font-weight:bold;
+	margin-top:17px;
+	margin-bottom:18px;
+}
+.ticket{
+	background-color:#EBC8D2;
+	border-radius:12px;
+	padding:8px 20px;
+	border:1px solid #777;
+	color:#333;
+}
+.ticket .row{
+	margin-bottom:10px !important;
+}
+.detail-ticket{
+	color:#555;
+	font-size:12px;
+}
+.price-ticket{
+	color:#333;
+	font-weight:bold;
+	font-size:14px;
+	margin:4px 0px !important;
+}
+.more-ticket{
+	text-decoration:underline;
+	cursor:pointer;
+	font-weight:bold;
+	margin-bottom:18px;
+}
+.maker{
+	background-color:#333;
+	border-radius:12px;
+	padding:9px 20px;
+}
+.maker .title-content{
+	color:#fff;
+	margin-bottom:0px !important;
+}
+.maker ul{
+	color:#fff;
+	padding-left:18px !important;
+	margin-bottom:8px !important;
+}
+.maker ul li{
+	list-style-type:disc !important;
+	margin:20px 0px !important;
+	font-size:14px;
+}
+.npm{
+	color:#fff;
+	font-size:12px;
+}
+.title-content{
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+}
+.footer{
+	position: absolute;
+	bottom:0;
+	margin-bottom:0px !important;
+	padding:20px 98px;
+	border-top:1px solid #999;
+	width:100%;
+	color:#777777;
+	background-color:#fff;
+}
+.contact{
+	font-family:"Playfair Display", serif;
+}
+.form-contact{
+	font-family:"Poppins", sans-serif;
+	background-color:#B4C2DD;
+	padding:30px 24px !important;
+	display:inline-block;
+	width:100%;
+	border-radius:18px;
+	border:1px solid #777;
+	margin-top:34px;
+}
+.form-contact input{
+	border-bottom:1px solid #777 !important;
+}
+textarea.materialize-textarea{
+	border-bottom:1px solid #777 !important;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+	color:#333 !important;
+}
+textarea.materialize-textarea:focus:not([readonly])+label{
+	color:#333 !important;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	box-shadow:0 1px 0 0 #555 !important;
+}
+input[type=email]:not(.browser-default):focus:not([readonly]){
+	box-shadow:0 1px 0 0 #555 !important;
+}
+textarea.materialize-textarea:focus:not([readonly]){
+	box-shadow:0 1px 0 0 #555 !important;
+}
+.form-contact .input-field>label{
+	color:#999 !important;
+}
+.btn-send{
+	text-transform:capitalize !important;
+	background-color:#333 !important;
+	padding:0px 24px !important;
+	height:46px !important;
+	line-height:46px !important;
+	border-radius:12px !important;
+	box-shadow:none !important;
+	font-weight:bold;
+}
+.nemdua{
+	font-size:16px !important;
+	font-weight:bolder;
+	margin-top:5px;
+}
+.list-contact{
+	font-family:"Poppins", sans-serif;
+	margin-top:40px;
+}
+.info-contact{
+	border-bottom:none;
+}
+.info-contact td{
+	padding:4px 0px !important;
+}
+.title-help h4{
+	font-family:"Playfair Display", serif;
+}
+.help-faq{
+	margin-top:30px !important;
+	border:1px solid #777 !important;
+	box-shadow:none !important;
+}
+.collapsible-header{
+	font-weight:bold !important;
+}
+.collapsible-body{
+	background-color:#f5f5f5 !important;
+}
+.img-preview{
+	width:270px;
+	height:130px;
+	object-fit:cover;
+	border-radius:18px;
+	border:1px solid #777;
+}
+.demi-img{
+	position:relative;
+	width:270px;
+	height:130px;
+}
+.overlay{
+	position:absolute;
+  	top:0;bottom:0;left:0;right:0;
+  	height:100%;
+  	width:100%;
+  	opacity:0;
+  	transition:.2s ease;
+  	background-color:#333;
+  	border-radius:18px;
+}
+.img-note{
+	color:white;
+	font-size:18px;
+	position:absolute;
+	top:40%;
+	left:26%;
+	text-align: center;
+}
+.demi-img:hover .overlay{
+	opacity:50%;
+}
+.img-modal{
+	text-align:left !important;
+	border-radius:18px !important;
+}
+.img-table{
+	border:none !important;
+}
+.img-table td{
+	padding:8px 10px 0px 0px !important;
+}
+.img-details{
+	width:100px;
+	height:100px;
+	object-fit:cover;
+	border-radius:12px;
+}
+.list-btn-schedule{
+	margin-top:20px;
+}
+.btn-schedule{
+	background-color:#EBC8D2 !important;
+	color:#333 !important;
+	text-transform:capitalize !important;
+	padding:0 30px !important;
+	height:50px !important;
+	line-height:48px !important;
+	font-size:16px !important;
+	font-weight:bold;
+	border-radius:12px !important;
+	border:1px solid #777 !important;
+	margin:8px 16px 8px 0px !important;
+	box-shadow:none !important;
+}
+.note-schedule{
+	font-size:12px;
+}
+.btn-login{
+	background-color:#333;
+	border-radius:18px;
+	color:#fff;
+	padding:16px 20px;
+	width:400px;
+	margin-top:20px;
+	cursor:pointer;
+	border-style:none;
+}
+.mata{
+	font-size:16px !important;
+	font-weight:bolder;
+	margin-top:5px;
+	cursor:pointer;
+}
+.modal-information{
+	padding:20px 10px 10px 10px !important;
+	border-radius:18px !important;
+}
+.modal-information h4{
+	font-family:"Playfair Display", serif;
+}
+.modal-information h6{
+	margin-top:24px;
+	font-weight:bold;
+}
+.date-information{
+	font-size:12px !important;
+	color:#777;
+}
